@@ -1,0 +1,24 @@
+#include<iostream>
+#include <iomanip>
+#include <cmath>
+#include<math.h>
+
+using namespace std;
+
+int main() {
+
+
+  int h;
+  int s;
+  float dis;
+  float liters;
+  cin>>h;
+  cin>>s;
+
+dis = s*h;
+liters = dis/12;
+
+
+cout << setprecision(3) << fixed << liters <<endl;
+    return 0;
+}

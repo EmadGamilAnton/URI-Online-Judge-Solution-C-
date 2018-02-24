@@ -1,0 +1,23 @@
+#include<iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+
+     int NUMBER =0;
+   float SALARY =0;
+   int ha=0;
+  float h=0;
+
+   cin>>NUMBER;
+   cin>>ha;
+   cin>>h;
+
+   SALARY=h*ha;
+
+cout << "NUMBER = " << NUMBER<<endl;
+cout << setprecision(2) << fixed << "SALARY = U$ "<<SALARY<<endl;
+    return 0;
+
+}

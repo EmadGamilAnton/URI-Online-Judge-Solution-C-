@@ -1,0 +1,27 @@
+#include<iostream>
+#include <iomanip>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+
+    int A,B,C,G;
+
+    cin>>A>>B>>C;
+
+    G=(A+B+abs(A-B))/2;
+
+    if(G>C)
+    {
+        G=G;
+    }
+    else if(G<C)
+    {
+        G=C;
+    }
+
+    cout << G <<  " eh o maior" <<endl;
+
+    return 0;
+}

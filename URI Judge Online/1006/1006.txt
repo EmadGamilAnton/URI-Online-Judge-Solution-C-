@@ -1,0 +1,20 @@
+#include<iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+
+     double A=0;
+   double B=0;
+   double C=0;
+   double MEDIA=0;
+   cin>>A;
+   cin>>B;
+   cin>>C;
+   MEDIA=((A*2)+(B*3)+(C*5))/(10); //weight average is equal= every number * weight / sum of weight
+
+
+cout << setprecision(1) << fixed << "MEDIA = "<<MEDIA<<endl;
+    return 0;
+}

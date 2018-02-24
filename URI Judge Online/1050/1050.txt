@@ -1,0 +1,49 @@
+
+#include<iostream>
+#include <iomanip>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int A;
+    cin>>A;
+    if(A==61)
+    {
+        cout<<"Brasilia"<<endl;
+    }
+    if (A==71)
+    {
+        cout<<"Salvador"<<endl;
+    }
+    if (A==11)
+    {
+        cout<<"Sao Paulo"<<endl;
+    }
+    if(A==21)
+    {
+        cout<<"Rio de Janeiro"<<endl;
+    }
+     if(A==32)
+    {
+        cout<<"Juiz de Fora"<<endl;
+    }
+     if(A==19)
+    {
+        cout<<"Campinas"<<endl;
+    }
+     if(A==27)
+    {
+        cout<<"Vitoria"<<endl;
+    }
+     if(A==31)
+    {
+        cout<<"Belo Horizonte"<<endl;
+    }
+    if(A!=61 && A!=71 && A!=11 && A!=21 && A!=32 && A!=19 && A!=27 && A!=31)
+        {
+    cout<<"DDD nao cadastrado"<<endl;
+    }
+
+    return 0;
+}

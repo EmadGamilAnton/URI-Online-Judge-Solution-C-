@@ -1,0 +1,93 @@
+
+#include<iostream>
+#include <iomanip>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int x,y,z;
+    int n1,n2,n3;
+    cin>>x>>y>>z;
+    if((x>y && x>z) && (y>z))
+    {
+        n1=z;
+        n2=y;
+        n3=x;
+        cout<<n1<<endl;
+        cout<<n2<<endl;
+        cout<<n3<<endl;
+        cout<<""<<endl;
+        cout<<x<<endl;
+        cout<<y<<endl;
+        cout<<z<<endl;
+    }
+    if((x>y && x>z) && (z>y))
+    {
+        n1=y;
+        n2=z;
+        n3=x;
+        cout<<n1<<endl;
+        cout<<n2<<endl;
+        cout<<n3<<endl;
+        cout<<""<<endl;
+        cout<<x<<endl;
+        cout<<y<<endl;
+        cout<<z<<endl;
+    }
+    if((y>x && y>z) && (x>z))
+    {
+        n1=z;
+        n2=x;
+        n3=y;
+        cout<<n1<<endl;
+        cout<<n2<<endl;
+        cout<<n3<<endl;
+        cout<<""<<endl;
+        cout<<x<<endl;
+        cout<<y<<endl;
+        cout<<z<<endl;
+    }
+    if((y>x && y>z) && (z>x))
+    {
+        n1=x;
+        n2=z;
+        n3=y;
+        cout<<n1<<endl;
+        cout<<n2<<endl;
+        cout<<n3<<endl;
+        cout<<""<<endl;
+        cout<<x<<endl;
+        cout<<y<<endl;
+        cout<<z<<endl;
+    }
+    if((z>x && z>y) && (x>y))
+    {
+        n1=y;
+        n2=x;
+        n3=z;
+        cout<<n1<<endl;
+        cout<<n2<<endl;
+        cout<<n3<<endl;
+        cout<<""<<endl;
+        cout<<x<<endl;
+        cout<<y<<endl;
+        cout<<z<<endl;
+    }
+    if((z>x && z>y) && (y>x))
+    {
+        n1=x;
+        n2=y;
+        n3=z;
+        cout<<n1<<endl;
+        cout<<n2<<endl;
+        cout<<n3<<endl;
+        cout<<""<<endl;
+        cout<<x<<endl;
+        cout<<y<<endl;
+        cout<<z<<endl;
+    }
+
+
+    return 0;
+}

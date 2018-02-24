@@ -1,0 +1,24 @@
+#include<iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+
+    string    name ;
+   double SALARY =0;
+   double bounce=0.15;
+   double sold;
+
+
+   cin>>name;
+   cin>>SALARY;
+   cin>>sold;
+
+   SALARY=(SALARY)+(bounce*sold);
+
+
+cout << setprecision(2) << fixed <<  "TOTAL = R$ " <<SALARY<<endl;
+    return 0;
+
+}

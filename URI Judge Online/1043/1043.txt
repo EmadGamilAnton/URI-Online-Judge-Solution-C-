@@ -1,0 +1,21 @@
+
+#include<iostream>
+#include <iomanip>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    float x,y,z,area,perimetro;
+    cin>>x>>y>>z;
+    if((x+y>z)&&(x+z>y)&&(y+z>x))
+    {
+        perimetro=x+y+z;
+        cout<<setprecision(1)<<fixed<<"Perimetro = "<<perimetro<<endl;
+    }else
+    {
+        area=((x+y)/2)*z;
+        cout<<setprecision(1)<<fixed<<"Area = "<<area<<endl;
+    }
+    return 0;
+}

@@ -1,0 +1,28 @@
+
+#include<iostream>
+#include <iomanip>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int x,y,z;
+    cin>>x>>y;
+    if(x==y)
+    {
+        z=24;
+        cout<<"O JOGO DUROU "<<z<<" HORA(S)"<<endl;
+    }
+    if(x>y)
+    {
+        z=(24-x)+y;
+        cout<<"O JOGO DUROU "<<z<<" HORA(S)"<<endl;
+    }
+    if(y>x)
+    {
+        z=y-x;
+        cout<<"O JOGO DUROU "<<z<<" HORA(S)"<<endl;
+    }
+
+    return 0;
+}

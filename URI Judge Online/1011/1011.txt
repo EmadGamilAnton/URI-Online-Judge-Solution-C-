@@ -1,0 +1,20 @@
+#include<iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+
+    float radius=0;
+    double volume=0 ;
+
+
+   cin>>radius;
+
+   volume = (4.0/3) * 3.14159 * (radius*radius*radius);
+
+
+cout << setprecision(3) << fixed <<  "VOLUME = " <<volume<<endl;
+    return 0;
+
+}

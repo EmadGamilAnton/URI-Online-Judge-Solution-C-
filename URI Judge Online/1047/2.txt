@@ -1,0 +1,43 @@
+
+#include<iostream>
+#include <iomanip>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int A,B,C,D,z1,z2;
+    int in,fin,sub=0;
+
+
+    cin>>A>>B>>C>>D;
+    if(A==C && B==D)
+    {
+        z1=24;
+        z2=0;
+        cout<<"O JOGO DUROU "<<z1<<" HORA(S) "<<"E "<<z2<<" MINUTO(S)"<<endl;
+    }
+    if(A<=C && B>D)
+    {
+        in=(A*60)+(B);
+        fin=(C*60)+(D);
+        sub=fin-in;
+        z1=sub/60;
+        z2=sub%60;
+
+        cout<<"O JOGO DUROU "<<z1<<" HORA(S) "<<"E "<<z2<<" MINUTO(S)"<<endl;
+    }
+    if(A<=C && D>B)
+    {
+        in=(A*60)+(B);
+        fin=(C*60)+(D);
+        sub=fin-in;
+        z1=(sub/60);
+        z2=sub%60;
+
+        cout<<"O JOGO DUROU "<<z1<<" HORA(S) "<<"E "<<z2<<" MINUTO(S)"<<endl;
+    }
+
+
+    return 0;
+}

@@ -1,0 +1,59 @@
+
+#include<iostream>
+#include <iomanip>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    float A,Novo_salario,Reajuste_ganho;
+    int Em_percentual=0;
+    cin>>A;
+    if (A>=0 && A<=400)
+    {
+        Novo_salario=A+(A*15/100);
+        Reajuste_ganho=Novo_salario-A;
+        Em_percentual=15;
+        cout<<setprecision(2)<<fixed<<"Novo salario: "<<Novo_salario<<endl;
+        cout<<setprecision(2)<<fixed<<"Reajuste ganho: "<<Reajuste_ganho<<endl;
+        cout<<"Em percentual: "<<Em_percentual<<" %"<<endl;
+    }
+    if (A>400 && A<=800)
+    {
+        Novo_salario=A+(A*12/100);
+        Reajuste_ganho=Novo_salario-A;
+        Em_percentual=12;
+        cout<<setprecision(2)<<fixed<<"Novo salario: "<<Novo_salario<<endl;
+        cout<<setprecision(2)<<fixed<<"Reajuste ganho: "<<Reajuste_ganho<<endl;
+        cout<<"Em percentual: "<<Em_percentual<<" %"<<endl;
+    }
+    if (A>800 && A<=1200)
+    {
+        Novo_salario=A+(A*10/100);
+        Reajuste_ganho=Novo_salario-A;
+        Em_percentual=10;
+        cout<<setprecision(2)<<fixed<<"Novo salario: "<<Novo_salario<<endl;
+        cout<<setprecision(2)<<fixed<<"Reajuste ganho: "<<Reajuste_ganho<<endl;
+        cout<<"Em percentual: "<<Em_percentual<<" %"<<endl;
+    }
+    if (A>1200 && A<=2000)
+    {
+        Novo_salario=A+(A*7/100);
+        Reajuste_ganho=Novo_salario-A;
+        Em_percentual=7;
+        cout<<setprecision(2)<<fixed<<"Novo salario: "<<Novo_salario<<endl;
+        cout<<setprecision(2)<<fixed<<"Reajuste ganho: "<<Reajuste_ganho<<endl;
+        cout<<"Em percentual: "<<Em_percentual<<" %"<<endl;
+    }
+    if (A>2000)
+    {
+        Novo_salario=A+(A*4/100);
+        Reajuste_ganho=Novo_salario-A;
+        Em_percentual=4;
+        cout<<setprecision(2)<<fixed<<"Novo salario: "<<Novo_salario<<endl;
+        cout<<setprecision(2)<<fixed<<"Reajuste ganho: "<<Reajuste_ganho<<endl;
+        cout <<fixed<<"Em percentual: "<<Em_percentual<<" %"<<endl;
+    }
+
+    return 0;
+}

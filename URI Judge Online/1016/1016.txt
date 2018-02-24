@@ -1,0 +1,26 @@
+#include<iostream>
+#include <iomanip>
+#include <cmath>
+#include<math.h>
+
+using namespace std;
+
+int main() {
+
+
+  int km;
+  int x,y;
+  int mintx;
+  int minty;
+
+
+    cin>> km;
+    x=km;
+    mintx=x;
+    y=x/2;
+    minty=2*mintx;
+
+
+cout <<minty<<" minutos"<<endl;
+    return 0;
+}
